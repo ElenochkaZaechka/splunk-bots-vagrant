@@ -1,7 +1,7 @@
 ---
 - name: set dataset type
   set_fact:
-      dataset: "{{ splunk_bots_version }}_data_set{% if 'botsv2' in splunk_bots_version and 'attack_only' in splunk_botsv2_dataset %}_attack_only{% endif %}.tgz"
+      dataset: "{% if 'botsv1' in splunk_bots_version %}splunk-pre-indexed/{% endif %}{ splunk_bots_version }}_data_set{% if 'botsv2' in splunk_bots_version and 'attack_only' in splunk_botsv2_dataset %}_attack_only{% endif %}{% if 'botsv1' in splunk_bots_version and 'attack_only' in splunk_botsv1_dataset %}_attack_only{% endif %}.tgz"
 
 - name: create cache dir
   file:
