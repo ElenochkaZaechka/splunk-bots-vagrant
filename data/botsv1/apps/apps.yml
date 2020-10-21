@@ -1,0 +1,22 @@
+bots_apps:
+ - name: Fortinet FortiGate Add-On for Splunk
+   id: 2846
+   release: 1.6.2
+ - name: Splunk Add-on for Tenable
+   id: 1710
+   release: 5.1.4
+ - name: Splunk Stream Add-on
+   id: 1809
+   release: 7.2.0
+ - name: Splunk Add-on for Microsoft Windows
+   id: 742
+   release: 8.0.0
+ - name: TA-Suricata
+   id: 2760
+   release: 2.3.3
+ - name: Microsoft Sysmon Add-on
+   id: 1914
+   release: 10.6.2
+ - name: URL Toolbox
+   id: 2734
+   release: "1.8"
