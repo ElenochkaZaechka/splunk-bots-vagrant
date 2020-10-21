@@ -7,7 +7,7 @@ bots_apps:
    release: 5.1.4
  - name: Splunk Stream Add-on
    id: 1809
-   release: 7.2.0
+   release: 7.3.0
  - name: Splunk Add-on for Microsoft Windows
    id: 742
    release: 8.0.0
@@ -20,3 +20,6 @@ bots_apps:
  - name: URL Toolbox
    id: 2734
    release: "1.8"
+ - name: lookup_file_editor
+   id: 1724
+   release: 3.4.6

@@ -4,7 +4,7 @@ bots_apps:
    release: 1.0.4
  - name: CiscoNVM
    id: 2992
-   release: 2.1.8
+   release: 3.1.2
  - name: Code42_App_For_Splunk
    id: 3736
    release: 3.0.12
@@ -13,10 +13,10 @@ bots_apps:
    release: 3.0.12
  - name: Splunk_Add_on_for_Cisco_ASA
    id: 1620
-   release: 4.0.1
+   release: 4.1.0
  - name: Splunk_Add_on_for_Microsoft_Cloud_Services
    id: 3110
-   release: 4.0.1
+   release: 4.0.2
  - name: Splunk_Add_on_for_Microsoft_Office_365
    id: 4055
    release: 2.0.2
@@ -28,19 +28,19 @@ bots_apps:
    release: 3.1.0
  - name: Splunk_Add_on_for_Tenable
    id: 4060
-   release: 3.2.3
+   release: 5.1.4
  - name: Splunk_Add_on_for_Unix_and_Linux
    id: 833
-   release: 8.0.0
+   release: 8.2.0
  - name: Splunk_Common_Information_Model
    id: 1621
-   release: 4.15.0
+   release: 4.17.0
  - name: Splunk_Security_Essentials
    id: 3435
-   release: 3.1.1
+   release: 3.2.0
  - name: Splunk_Stream_Add_on
    id: 1809
-   release: 7.2.0
+   release: 7.3.0
  - name: TA_VirusTotalActions
    id: 3446
    release: 0.2.0
@@ -52,13 +52,13 @@ bots_apps:
    release: "2.0"
  - name: Microsoft_Azure_Active_Directory_Reporting_Add_on_for_Splunk
    id: 3757
-   release: 3.0.0
+   release: 3.0.1
  - name: Microsoft_Cloud_App_for_Splunk
    id: 3786
-   release: 3.2.0
+   release: 3.2.2
  - name: Microsoft_Office_365_Reporting_Add_on_for_Splunk
    id: 3720
-   release: 1.2.0
+   release: 1.2.4
  - name: Microsoft_Sysmon_Add_on
    id: 1914
    release: 10.6.2
@@ -67,13 +67,13 @@ bots_apps:
    release: 0.6.0
  - name: Splunk_Add_on_for_AWS
    id: 1876
-   release: 5.0.1
+   release: 5.0.3
  - name: ES_Content_Updates
    id: 3449
-   release: 1.0.54
+   release: 3.0.6
  - name: lookup_file_editor
    id: 1724
-   release: 3.4.2
+   release: 3.4.6
  #-name: SA_cim_vladiator
  #   id: 2968
  #   release: 1.2
